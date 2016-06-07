@@ -52,10 +52,10 @@ public class user {
 
     //Age
     public Integer getAge() {
-        return age;
+        return Age;
     }
     public void setAge(Integer age) {
-        this.age = age;
+        Age = age;
     }
 
     //Email
@@ -67,19 +67,19 @@ public class user {
     }
 
     //Passport Series
-    public Integer getpassSeries() {
-        return passSeries;
+    public Integer getPSeries() {
+        return PSeries;
     }
-    public void setpassSeries(Integer passSeries) {
-        this.passSeries = passSeries;
+    public void setPSeries(Integer pseries) {
+        PSeries = pseries;
     }
 
     //Passport Number
-    public Integer getpassNumb() {
-        return passNumb;
+    public Integer getPNumber() {
+        return PNubmer;
     }
-    public void setpassNumb(Integer passNumb) {
-        this.passNumb = passNumb;
+    public void setPNubmer(Integer pnumber) {
+        PNubmer = pnumber;
     }
 
     @Override
