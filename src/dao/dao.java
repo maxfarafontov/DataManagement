@@ -39,7 +39,7 @@ public class dao {
         try {
             ResultSet rs = st.executeQuery(sql);
             while (rs.next()) {
-                Users.add(new user(rs.getInt("id"), rs.getString("name"), rs.getString("email"), rs.getString("surname"),
+                users.add(new user(rs.getInt("id"), rs.getString("name"), rs.getString("email"), rs.getString("surname"),
                         rs.getInt("age"), rs.getInt("passNumb"), rs.getInt("passSeries")));
             }
             rs.close();
