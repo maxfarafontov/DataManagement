@@ -6,28 +6,28 @@ public class user {
     public Integer Age, PNubmer, PSeries;
 
 
-    public user(Integer id, String firstname, String lastname, String email, Integer age, Integer pseries, Integer pnumber) {
+    public user(Integer id, String firstName, String lastName, String email, Integer age, Integer pSeries, Integer pNumber) {
         ID = id;
-        FirstName = firstname;
-        LastName = lastname;
+        FirstName = firstName;
+        LastName = lastName;
         Email = email;
         Age = age;
-        PSeries = pseries;
-        PNubmer = pnumber;
+        PSeries = pSeries;
+        PNubmer = pNumber;
     }
 
-    public user(String firstname, String lastname, String email, Integer age, Integer pseries, Integer pnumber) {
-        FirstName = firstname;
-        LastName = lastname;
+    public user(String firstName, String lastName, String email, Integer age, Integer pSeries, Integer pNumber) {
+        FirstName = firstName;
+        LastName = lastName;
         Email = email;
         Age = age;
-        PSeries = pseries;
-        PNubmer = pnumber;
+        PSeries = pSeries;
+        PNubmer = pNumber;
     }
 
 
     //ID
-    public Integer getId() {
+    public Integer getID() {
         return ID;
     }
     public void setId(Integer id) {
@@ -46,8 +46,8 @@ public class user {
     public String getLastName() {
         return LastName;
     }
-    public void setLastName(String lastname) {
-        LastName = lastname;
+    public void setLastName(String lastName) {
+        LastName = lastName;
     }
 
     //Age
@@ -70,16 +70,16 @@ public class user {
     public Integer getPSeries() {
         return PSeries;
     }
-    public void setPSeries(Integer pseries) {
-        PSeries = pseries;
+    public void setPSeries(Integer pSeries) {
+        PSeries = pSeries;
     }
 
     //Passport Number
     public Integer getPNumber() {
         return PNubmer;
     }
-    public void setPNubmer(Integer pnumber) {
-        PNubmer = pnumber;
+    public void setPNubmer(Integer pNumber) {
+        PNubmer = pNumber;
     }
 
     @Override
