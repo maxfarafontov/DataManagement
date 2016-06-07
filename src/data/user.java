@@ -5,7 +5,7 @@ public class user {
     public String FirstName, LastName,  Email;
     public Integer Age, PNubmer, PSeries;
 
-
+    //initial object
     public user(Integer id, String firstName, String lastName, String email, Integer age, Integer pSeries, Integer pNumber) {
         ID = id;
         FirstName = firstName;
@@ -15,7 +15,6 @@ public class user {
         PSeries = pSeries;
         PNubmer = pNumber;
     }
-
     public user(String firstName, String lastName, String email, Integer age, Integer pSeries, Integer pNumber) {
         FirstName = firstName;
         LastName = lastName;
@@ -25,7 +24,7 @@ public class user {
         PNubmer = pNumber;
     }
 
-
+    // getters and setters
     //ID
     public Integer getID() {
         return ID;
@@ -33,7 +32,6 @@ public class user {
     public void setId(Integer id) {
         ID = id;
     }
-
     //First Name
     public String getFirstName() {
         return FirstName;
@@ -41,7 +39,6 @@ public class user {
     public void setName(String firstName) {
         FirstName = firstName;
     }
-
     //Last Name
     public String getLastName() {
         return LastName;
@@ -49,7 +46,6 @@ public class user {
     public void setLastName(String lastName) {
         LastName = lastName;
     }
-
     //Age
     public Integer getAge() {
         return Age;
@@ -57,7 +53,6 @@ public class user {
     public void setAge(Integer age) {
         Age = age;
     }
-
     //Email
     public String getEmail() {
         return Email;
@@ -65,7 +60,6 @@ public class user {
     public void setEmail(String email) {
         Email = email;
     }
-
     //Passport Series
     public Integer getPSeries() {
         return PSeries;
@@ -73,7 +67,6 @@ public class user {
     public void setPSeries(Integer pSeries) {
         PSeries = pSeries;
     }
-
     //Passport Number
     public Integer getPNumber() {
         return PNubmer;

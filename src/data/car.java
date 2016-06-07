@@ -19,7 +19,6 @@ public class car {
         MasterID = masterID;
     }
 
-
     // getters and setters
     //id
     public Integer getID(){
@@ -28,7 +27,6 @@ public class car {
     public void setID( Integer id){
         ID = id;
     }
-
     //model
     public String getModel(){
         return Model;
@@ -36,7 +34,6 @@ public class car {
     public void setModel(String model){
         Model = model;
     }
-
     //color
     public String getColor(){
         return Color;
@@ -44,7 +41,6 @@ public class car {
     public void setColor(String color){
         Color = color;
     }
-
     //userID
     public Integer getUserID() {
         return UserID;
@@ -52,7 +48,6 @@ public class car {
     public void setUserID(Integer userID){
         UserID = userID;
     }
-
     //masterID
     public Integer getMasterID(){
         return MasterID;
