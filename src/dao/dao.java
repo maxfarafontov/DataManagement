@@ -8,9 +8,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class dao {
-    public static String DATABASE = null;
+    public static String DATABASE = "autoservice";
     public static final String URL = "jdbc:mysql://localhost:3306/" + DATABASE;
     public static String USERNAME = null;
     public static String PASSWORD = null;
@@ -448,6 +447,4 @@ public class dao {
             }
         }
     }
-
-
 }
