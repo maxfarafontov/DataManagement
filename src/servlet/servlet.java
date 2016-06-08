@@ -23,13 +23,13 @@ public class servlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         if (request.getParameterMap().isEmpty()) {
-            request.getRequestDispatcher("table.jsp").forward(request, response);
+            request.getRequestDispatcher("index.jsp").forward(request, response);
         }
         String action = request.getParameter("action");
         if (action != null) {
             switch (action) {
                 case "edit":
-                    request.setAttribute("user", new dao().getUserById(Integer.parseInt(request.getParameter("id"))));
+                    request.setAttribute("user", new dao().getUserByID(Integer.parseInt(request.getParameter("ID"))));
                     request.getRequestDispatcher("editUser.jsp").forward(request, response);
                     break;
 

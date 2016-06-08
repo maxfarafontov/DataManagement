@@ -23,16 +23,16 @@ public class login extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
         //request.getRequestDispatcher("login.jsp").forward(request, response);
 
-        log = request.getParameter("log");
-        pass = request.getParameter("pass");
+        log = request.getParameter("username");
+        pass = request.getParameter("password");
         dao.USERNAME = log;
         dao.PASSWORD = pass;
         if(dao.USERNAME!=null){
             response.sendRedirect("/");
-        }else {request.getRequestDispatcher("autor.jsp").forward(request, response);}
+        }else {request.getRequestDispatcher("login.jsp").forward(request, response);}
+
     }
 }
 
